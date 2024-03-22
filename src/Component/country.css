@@ -1,0 +1,13 @@
+.country{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 15px 5px;
+  border: 2px solid steelblue;
+  border-radius: 15px;
+}
+
+.countries{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
